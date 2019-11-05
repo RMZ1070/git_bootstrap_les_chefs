@@ -15495,4 +15495,31 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
+ul {
+  display: flex;
+  padding-top: 10px;
+}
+
+.img {
+  list-style: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+  flex: 1;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+  height: 57px;
+}
+
+.opa {
+  filter: brightness(40%);
+  z-index: -1;
+  position: absolute;
+}
+
 /*# sourceMappingURL=style.css.map */
