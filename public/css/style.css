@@ -15515,11 +15515,27 @@ li {
   border-bottom: solid white 1px;
   height: 57px;
 }
+li:hover {
+  background-color: red;
+}
 
 .opa {
   filter: brightness(40%);
   z-index: -1;
   position: absolute;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.rr {
+  color: red;
+}
+
+.but {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
