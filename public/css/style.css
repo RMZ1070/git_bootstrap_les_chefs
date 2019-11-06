@@ -15495,9 +15495,8 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
-ul {
-  display: flex;
-  padding-top: 10px;
+body {
+  font-family: "Courgette", cursive;
 }
 
 .img {
@@ -15505,17 +15504,22 @@ ul {
   color: white;
 }
 
-li {
+ul {
+  display: flex;
+  padding-top: 10px;
+}
+ul li {
   list-style: none;
   flex: 1;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 15px;
   color: white;
+  margin-top: 5px;
   border-top: solid white 1px;
   border-bottom: solid white 1px;
   height: 57px;
 }
-li:hover {
+ul li:hover {
   background-color: red;
 }
 
@@ -15536,6 +15540,60 @@ h1 {
 
 .but {
   text-align: center;
+}
+
+.secim {
+  background: url(../../public/images/main_bg.jpg);
+  height: 1100px;
+  height-width: 100%;
+}
+
+#lii {
+  color: grey;
+  list-style: none;
+}
+#lii h2 {
+  color: black;
+}
+#lii h3 {
+  color: black;
+}
+#lii i:active {
+  color: red;
+}
+
+.red {
+  color: red;
+}
+
+.titre {
+  text-align: center;
+}
+.titre h1 {
+  color: black;
+  padding-top: 20px;
+}
+
+.im {
+  display: flex;
+}
+.im img {
+  border-radius: 80px;
+}
+.im button {
+  color: red;
+}
+
+.blanc {
+  background-color: white;
+}
+
+.dep {
+  padding-left: 1050px;
+}
+
+.dep1 {
+  padding-left: 1070px;
 }
 
 /*# sourceMappingURL=style.css.map */
